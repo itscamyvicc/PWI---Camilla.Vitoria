@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<style>
+#MyHeader {
+    background-image: linear-gradient(#7F27FF, #9F70FD);
+    border-radius: 25px;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    font-size: 270%;
+    box-shadow: 0 4px 10px #595959;
+}
+/* ================================ */
+.caixa {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: lightgray;
+  border-radius: 15px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+}
+/* =============================== */
+.nav {
+    background-color: #9F70FD;
+    border-radius: 25px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0 4px 10px #595959;
+}
+.nav li {
+    display: inline-block;
+    padding: 30px;
+}
+a:link, a:visited {
+    background-color: #7F27FF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+}
+a:hover, a:active {
+    background-color: #ff7300;
+}
+
+</style>
+</head>
+
+<body>
+<img src="./Image/bag-fill.svg" style="float: right; padding: 10px; height: 30px; width: 30px; cursor: pointer;">
+<img src="./Image/suit-heart-fill.svg" style="float: right; padding: 10px; height: 30px; width: 30px; cursor: pointer;">    
+<img src="./Image/person-fill.svg" style="float: right; padding: 10px; height: 30px; width: 30px; cursor: pointer;">
+
+<h1 id="MyHeader"> Bem vindo ao PetFriends™!
+    <p style="font-size: 60%;font-weight: 300;"> O melhor amigo que seu pet precisa! </p>
+</h1>
+
+<ul class="nav">
+    <li><a href="/Início/"> Início </a></li>
+    <li><a href="/Produtos/"> Produtos </a></li>
+    <li><a href="/Contatos/"> Contatos </a></li>
+    <li><a href="/Serviços/"> Serviços </a></li>
+    <li><a href="/Agendar/"> Agendar </a></li>
+</ul>
+
+<div class="container">
+<p class="caixa"> teste </p>
+</div>
+
+</body>
+</html>
