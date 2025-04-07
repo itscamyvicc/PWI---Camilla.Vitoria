@@ -59,6 +59,47 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: #ff7300;
 }
+/* =============================== */
+.agendar {
+  background-color: #f5f5ff;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 2px solid #a363f8;
+}
+
+.agendar h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.agendar form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.agendar input,
+.agendar select,
+.agendar button {
+  padding: 10px;
+  border: 2px solid #a363f8;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.agendar button {
+  background: linear-gradient(#8e2de2, #a363f8);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.agendar button:hover {
+  background: #ff7300;
+}
 </style>
 </head>
 
@@ -100,6 +141,34 @@ a:hover, a:active {
     Clientes ganham 20% de desconto na primeira compra!</p>
 </div>
 </div>
+
+<section id="agendar" class="agendar">
+  <h2> Agende um horário </h2>
+<form>
+<label for="nome"> Nome: </label>
+<input type="text" id="nome" name="nome" required>
+  
+<label for="email"> Email: </label>
+<input type="email" id="email" name="email" required>
+  
+<label for="servico"> Serviço: </label>
+    <select id="servico" name="servico" required>
+    <option value="banho-tosa">Banho e Tosa</option>
+    <option value="veterinario">Veterinário</option>
+    <option value="petshop">Pet Shop</option>
+</select>
+  
+<label for="data"> Data: </label>
+<input type="date" id="data" name="data" required>
+  
+<button type="submit"> Agendar </button>
+</form>
+</section>
+
+<footer>
+  <p style="text-align: center;"> &copy; 2025 PetFriends™ - Todos os direitos reservados. </p>
+  <p style="text-align: center;"> Contato: petfriendsbusiness@gmail.com | (11) 99999-9999 </p>
+</footer>
 
 </body>
 </html>
