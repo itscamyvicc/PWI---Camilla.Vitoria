@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(crimson, black);
+}
+
+h1 {
+    color: cornsilk;
+    text-align: center;
+    font-style: italic;
+    background-color:rgb(160, 95, 95);
+    padding: 20px;
+    margin: 70px;
+    border: 1px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(160, 95, 95);
+    padding: 10px;
+    margin: 70px;
+    border: 1px;
+    border-radius: 15px;
+}
+
+h3 {
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(160, 95, 95);
+    padding: 10px;
+    border: 1px;
+    border-radius: 15px;
+}
+
+br {
+    color: black;
+    text-align: center;
+    justify-items: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+div {
+    border: 2px;
+    border-color: darkslateblue;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: burlywood;
+    padding: 20px;
+    margin: auto;
+}
