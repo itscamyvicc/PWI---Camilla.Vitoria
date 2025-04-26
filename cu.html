@@ -2,27 +2,45 @@
 <html lang="en">
 <head>
 <style>
+#MyHeader {
+    color: #000000;
+    text-align: center;
+    font-size: 270%;
+}
+
+img {
+    width: 150px;
+    height: 80px;
+    float: none;
+}
 
 .nav {
-    background-color: #9F70FD;
-    border: 2px solid black;
-    border-radius: 25px;
     list-style-type: none;
     text-align: center;
     margin: 0px;
     padding: 0px;
-    box-shadow: 0 4px 10px #595959;
+    font-size: large;
 }
+
+.nav li {
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+}
+
 a:hover, a:active {
     color: #ff7300;
 }
-
+/*===================================*/
 .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
+  width: 100%;
   margin: auto;
-  padding: 50px;
-  gap: 30px;
+  padding: 2px;
+  
 }
 
 .caixa {
@@ -32,7 +50,6 @@ a:hover, a:active {
   border-radius: 15px;
   width: 99%;
   text-align: center;
-  box-shadow: 0 10px 10px #9F70FD;
   margin: auto;
 }
 
@@ -43,13 +60,24 @@ a:hover, a:active {
 </head>
 <body>
 
+<h1 id="MyHeader"> <img src="./Image/Pet-shop-animals-logo-template-Graphics-10636979-1-1-580x386.png" style="height: 68px;"> PetFriends 
+<img src="./Image/bag-fill.svg" style="float: right; padding: 10px; height: 30px; width: 30px; cursor: pointer;">
+<img src="./Image/suit-heart-fill.svg" style="float: right; padding: 10px; height: 30px; width: 30px; cursor: pointer;">    
+<img src="./Image/person-fill.svg" style="float: right; padding: 10px; height: 30px; width: 30px; cursor: pointer;">
+</h1>
+
+
+
 <div class="caixa">
-<p>
-    <a href="Site PetFriends.html" target="iframe_a"> Site PetFriends </a>
-    <a href="https://github.com/itscamyvicc/PWI---Camilla.Vitoria" target="iframe_a"> Repositório</a>
-</p>
+<ul class="nav">
+    <li><a href="Hello World!.html" target="iframe_a"> Lojas </a></li>
+    <li><a href="" target="iframe_a"> Produtos </a></li>
+    <li> <a href="" target="iframe_a"> Contatos </a></li>
+    <li> <a href="" target="iframe_a"> Serviços </a></li>
+    <li> <a href="" target="iframe_a"> Agendar </a></li>
+</ul>
 </div>
 
-<iframe name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+<iframe name="iframe_a" height="500px" width="1505px" title="Iframe Example"></iframe>
 </body>
 </html>
