@@ -1,17 +1,17 @@
 echo OFF
 
-echo --- Preparar aquivos para Subir ----
+echo ---- Preparar aquivos para subir ----
 
 git add .
 
-echo --- Mensagem para Deus ----
+echo ---- Mensagem para Deus ----
 
-git commit -m "Arquivos utilizados ou alterados na aula."
+git commit -m "Arquivos utilizados ou alterados em aula."
 
-echo --- Enviar para Nuvem
+echo ---- Enviar para nuvem ----
 
 git push
 
-echo --- Fim ---
+echo ---- Fim ----
 
 pause
