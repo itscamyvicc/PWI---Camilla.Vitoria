@@ -7,7 +7,7 @@ git add .
 
 echo --- Mensagem para Deus ----
 
-git commit -m "Arquivos utilizados ou alterados na aula"
+git commit -m "Arquivos utilizados ou alterados na aula."
 
 echo --- Enviar para Nuvem
 
